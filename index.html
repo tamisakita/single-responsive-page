@@ -6,96 +6,118 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive Page</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 <body>
-  <div class="wrapper">
-    <nav>
-      <div class="logo-orange"></div>
-      <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ol>
+  <div class="container-lg">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbarNavAltMarkup">
+      <div class="container-fluid">
+        <a class="logo-orange" href="#"></a>
+        <div class="collapse navbar-collapse ul-items">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"></li>
+            <li class="nav-item"></li>
+            <li class="nav-item"></li>
+            <li class="nav-item"></li>
+            <li class="nav-item"></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   
-    <main>
-      <div>
-        
-      </div>
-      <section class="section-left">
-        <h1>Lorem Ipsum</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sodales dolor. Sed dignissim orci ex, ac maximus quam ornare nec.</p>
-        <div class="round-icons">
-          <div class="round-icon"></div>
-          <div class="round-icon"></div>
-          <div class="round-icon"></div>
-          <div class="round-icon"></div>
+
+    <div class="container main-section">
+      <div class="row">
+        <div class="col-8 container-1">
+          <div class="container-1-top">
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sodales dolor. Sed dignissim orci ex, ac maximus quam ornare nec.</p>
+          </div>
+
+          <div class="container">
+            <div class="row round-icons">
+              <div class="col-md-auto">
+                <div class="round-icon"></div>
+              </div>
+              <div class="col-md-auto">
+                <div class="round-icon"></div>
+              </div>
+              <div class="col-md-auto">
+                <div class="round-icon"></div>
+              </div>
+              <div class="col-md-auto">
+                <div class="round-icon"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="container container-1-bottom">
+            <div class="row">
+              <div class="col container-1-bottom-2">
+                <h2>Sed eget sodales</h2>
+                <p>Sed eget sodales dolor. Sed dignissim orci ex, ac maximus quam ornare nec. Integer tempor ultricies dolor, vel suscipit sapien aliquet vel. Nulla auctor turpis a lectus euismod, non euismod mi lacinia.</p>
+                <button class="button">BUTTON</button>
+              </div>
+              <div class="col-md-auto">
+                <figure class="container-1-picture"></figure>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="section-left-bottom">
-          <div class="section-left-text">
-            <h2>Sed eget sodales</h2>
-            <p>Sed eget sodales dolor. Sed dignissim orci ex, ac maximus quam ornare nec. Integer tempor ultricies dolor, vel suscipit sapien aliquet vel. Nulla auctor turpis a lectus euismod, non euismod mi lacinia.</p>
-            <button>BUTTON</button>
+        
+        <div class="col-4 container-2">
+          <div class="container-2-card">
+            <div class="container-2-img"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sodales dolor. Sed dignissim orci ex, ac maximus quam ornare nec. Integer tempor ultricies dolor.</p>
           </div>
-          <div class="section-left-picture"></div>
+          <div class="container-2-card">
+            <div class="container-2-img"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sodales dolor. Sed dignissim orci ex, ac maximus quam ornare nec. Integer tempor ultricies dolor, vel suscipit sapien aliquet vel.</p>
+          </div>
+          <div class="container-2-card">
+            <div class="container-2-img"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sodales dolor. Sed dignissim orci ex, ac maximus quam ornare nec. Integer tempor ultricies dolor, vel suscipit sapien aliquet vel.</p>
+          </div>
         </div>
-      </section>
-    
-      <section class="section-right">
-        <div class="section-right-img"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sodales dolor. Sed dignissim orci ex, ac maximus quam ornare nec. Integer tempor ultricies dolor.</p>
-        <div class="section-right-img"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sodales dolor. Sed dignissim orci ex, ac maximus quam ornare nec. Integer tempor ultricies dolor, vel suscipit sapien aliquet vel.</p>
-        <div class="section-right-img"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sodales dolor. Sed dignissim orci ex, ac maximus quam ornare nec. Integer tempor ultricies dolor, vel suscipit sapien aliquet vel.</p>
-      </section>
-    </main>
-    
-    <section class="form-section">
-      <h3>Lorem ipsum dolor sit amet</h3>
-      <form action="/register" method=post>
-        <div class="slot-form-container">
-          <!-- <label>Nome Completo</label>
-          <input type="name" id="name">
-          <label for="document">CPF</label>
-          <input type="number"id="document">
-        </br>
-          <label for="phone">Celular</label>
-          <input type="number"id="phone">
-          <label>Operadora </label>
-          <input type="select" id="operadora">
-          <select name="select">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-          </select> -->
-          <fieldset>
-            <legend>Nome Completo</legend>
-            <input id="name">
-          </fieldset>
-          <fieldset>
-            <legend>CPF</legend>
-            <input id="document">
-          </fieldset>
-          <fieldset>
-            <legend>Celular</legend>
-            <input id="phone">
-          </fieldset>
-          <fieldset>
-            <legend>Operadora</legend>
-            <select></select>
-          </fieldset>
+      </div>
+    </div>
+
+
+    <div class="form-section">
+      <div class="container form-container">
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <div class="row g-3 form-input-section">
+          <div class="col textOnInput">
+              <label for="inputText">Nome Completo</label>
+              <input class="form-input" type="text">
+          </div>
+          <div class="col textOnInput">
+            <label for="inputText">CPF</label>
+            <input class="form-input" type="text">
+          </div>
         </div>
-        <button>BUTTON</button>
-      </form>
-    </section>
-  
+
+        <div class="row g-3 form-input-section">
+          <div class="col textOnInput">
+              <label for="inputText">Celular</label>
+              <input class="form-input" type="text">
+          </div>
+          <div class="col textOnInput">
+            <label for="inputText">Operadora</label>
+            <input class="form-input" type="text">
+          </div>
+        </div>
+        <button class="button">BUTTON</button>
+      </div>
+    </div>
+    
     <footer>
-      <h4>Donec quis neque eu quam venenatis pretium ac a nibh.<br/> Lorem | Ipsum | Dolor | Sit Amet</h4>
+      <p>Donec quis neque eu quam venenatis pretium ac a nibh.<br/> Lorem | Ipsum | Dolor | Sit Amet</p>
     </footer>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 </body>
 </html>
